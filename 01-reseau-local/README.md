@@ -6,6 +6,10 @@ Construire un réseau composé de deux sous-réseaux séparés, reliés par un r
 
 **Outil :** Cisco Packet Tracer
 
+## Schéma
+
+![Schéma du réseau](images/schema.jpeg)
+
 ## Plan d'adressage
 
 | Réseau | Adresse réseau | Masque | Passerelle (routeur) | Équipements |
@@ -44,6 +48,21 @@ exit
 end
 write memory
 ```
+
+## Tests et résultats
+
+**Interfaces du routeur** (`show ip interface brief`) :
+
+![Interfaces du routeur](images/interfaces-routeur.jpeg)
+
+**Adresse reçue par DHCP sur un PC :**
+
+![DHCP sur un PC](images/dhcp-pc.jpeg)
+
+**Ping de PC0 (LAN 10) vers PC3 (LAN 20) :**
+
+![Ping PC0 vers PC3](images/ping_pc0_pc3.jpeg)
+
 ## Ce que j'ai appris
 
 - Créer deux sous-réseaux en configurant une interface du routeur dans chacun
