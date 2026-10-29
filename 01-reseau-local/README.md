@@ -6,16 +6,12 @@ Construire un réseau composé de deux sous-réseaux séparés, reliés par un r
 
 **Outil :** Cisco Packet Tracer
 
-## Schéma
-
-![Schéma du réseau](images/schema.jpg)
-
 ## Plan d'adressage
 
 | Réseau | Adresse réseau | Masque | Passerelle (routeur) | Équipements |
 |--------|----------------|--------|----------------------|-------------|
-| LAN 10 | 192.168.10.0/24 | 255.255.255.0 | 192.168.10.1 (g0/0) | SW1, PC1, PC2 |
-| LAN 20 | 192.168.20.0/24 | 255.255.255.0 | 192.168.20.1 (g0/1) | SW2, PC3, PC4 |
+| LAN 10 | 192.168.10.0/24 | 255.255.255.0 | 192.168.10.1 (g0/0) | SW0, PC0, PC1 |
+| LAN 20 | 192.168.20.0/24 | 255.255.255.0 | 192.168.20.1 (g0/1) | SW1, PC2, PC3 |
 
 Les adresses .1 à .10 de chaque réseau sont exclues du DHCP. Les PC reçoivent donc des adresses à partir de .11.
 
@@ -48,21 +44,6 @@ exit
 end
 write memory
 ```
-
-## Tests et résultats
-
-**Interfaces du routeur** (`show ip interface brief`) :
-
-![Interfaces du routeur](images/interfaces-routeur.jpg)
-
-**Adresse reçue par DHCP sur un PC :**
-
-![DHCP sur un PC](images/dhcp-pc.jpg)
-
-**Ping de PC1 (LAN 10) vers PC3 (LAN 20) :**
-
-![Ping PC1 vers PC3](images/ping-pc1-pc3.jpeg)
-
 ## Ce que j'ai appris
 
 - Créer deux sous-réseaux en configurant une interface du routeur dans chacun
