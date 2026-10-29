@@ -57,7 +57,7 @@ write memory
 
 **Adresse reçue par DHCP sur un PC :**
 
-![DHCP sur un PC](images/dhcp-pc.jpeg)
+![DHCP sur un PC](images/Dhcp-pc.jpeg)
 
 **Ping de PC0 (LAN 10) vers PC3 (LAN 20) :**
 
