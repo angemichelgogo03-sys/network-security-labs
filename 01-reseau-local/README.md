@@ -59,9 +59,9 @@ write memory
 
 ![DHCP sur un PC](images/Dhcp_pc.jpeg)
 
-**Ping de PC0 (LAN 10) vers PC3 (LAN 20) :**
+**Ping de PC0 (LAN 10) vers PC2 (LAN 20) :**
 
-![Ping PC0 vers PC3](images/ping_pc0_pc3.jpeg)
+![Ping PC0 vers PC3](images/ping_pc0_pc2.jpeg)
 
 ## Ce que j'ai appris
 
