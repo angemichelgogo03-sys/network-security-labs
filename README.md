@@ -12,7 +12,7 @@ Tous les tests (scans, attaques) sont réalisés **uniquement dans mon propre la
 
 | # | Projet | Outils | Statut |
 |---|--------|--------|--------|
-| 1 | [Réseau local : sous-réseaux, routage, DHCP](01-reseau-local) | Cisco Packet Tracer | À faire |
+| 1 | [Réseau local : sous-réseaux, routage, DHCP](01-reseau-local) | Cisco Packet Tracer | Terminé |
 | 2 | [Analyse de trafic](02-wireshark) | Wireshark | À faire |
 | 3 | [Laboratoire virtuel](03-labo-virtuel) | VirtualBox, Kali, Metasploitable | À faire |
 | 4 | [Scan réseau](04-nmap) | nmap | À faire |
